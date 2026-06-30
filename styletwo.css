@@ -1,0 +1,281 @@
+ @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+    nav{
+        max-width: 1300px;
+        margin: auto;
+        padding: 1.5rem 10rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-family:Teko;
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        color: #FFF2E780;
+    }
+
+    .github {
+        color: #FFF2E7;
+        font-weight: 600;
+    }
+
+
+    .hero-receita{
+
+        max-width: 1300px;
+        height: 58vh;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 6rem;
+
+        word-wrap: break-word;
+
+        padding: 0rem 2rem;
+        margin: auto;
+        width: 1550px;
+        height: 300px;
+        overflow: clip;
+
+        background:#181012;
+        
+    }
+
+    .hero-conteudo{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+     .nome-receita{
+        color: #FFFFFF;
+        font-family: montserrat;
+        font-size: 3.3rem;
+        font-weight: 800;
+    }
+
+    .hero-autor{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+        height: 80px;
+    }
+
+    .hero-autor > img{
+        border-radius: 20rem;
+        width: 1.5rem;
+    }
+
+    .info-autor{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+
+    .nome-autor{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .detalhe-autor{
+        font-family: Inter;
+        font-size: 14px;
+        color: #756A67;
+    }
+
+
+    .hero-card-avaliacao{
+        width: 500px;
+        padding: 20px;
+        background: #1F1517;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    .titulo{
+        font-size:14px ;  
+        letter-spacing:2px;
+        color:#ff6b6b;
+        margin-bottom: 20px; 
+    }
+
+    .item {
+        margin-bottom: 20px;
+}
+
+    .topo{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        font-weight: 600;
+}
+
+    .valor {
+        color: #aaa;
+        font-weight: 250;
+        font-size: 16px;
+}
+    .destaque {
+        color: #ff914d;
+}
+
+    .barra {
+        width: 100%;
+        height: 6px;
+        background: #4b2a2f;
+        border-radius: 4px;
+        overflow: hidden;
+}
+
+
+    .progresso {
+        height:6px;
+        background: #A45A49;
+        border-radius:4px;
+}
+
+    .card-subtitle{
+        color: #C7BAB3;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 1.25rem;
+    }
+
+    .hero-preparo{
+        max-width: 1300px;
+        margin: 2rem auto 4rem;
+        display: grid;
+        grid-template-columns: minmax(280px, 1fr) 360px;
+        gap: 2rem;
+        padding: 0 2rem;
+    }
+
+    .card-ingredientes{
+        background: #1F1517;
+        border: 1px solid rgba(255,255,255,0.06);
+        border-radius: 1.2rem;
+        padding: 2rem;
+        box-shadow: 0 30px 60px rgba(0,0,0,0.18);
+    }
+
+    
+    .card-ingredientes h2{
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: #FFFFFF;
+    }
+
+    .step{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1rem;
+        align-items: start;
+        background: rgba(255,255,255,0.03);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 1rem;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .number{
+        width: 2.4rem;
+        height: 2.4rem;
+        display: grid;
+        place-items: center;
+        background: #A45A49;
+        color: #FFFFFF;
+        font-weight: 700;
+        border-radius: 50%;
+        flex-shrink: 0;
+    }
+
+    .step p{
+        color: #E9DED4;
+        line-height: 1.7;
+        font-size: 0.98rem;
+    }
+
+    .ready{
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        margin-top: 1.25rem;
+        padding: 1rem 1.25rem;
+        background: rgba(164,90,73,0.12);
+        border: 1px solid rgba(164,90,73,0.25);
+        border-radius: 1rem;
+    }
+
+    .icone-ready{
+        width: 2.5rem;
+        height: 2.5rem;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        background: #A45A49;
+        color: #FFFFFF;
+        font-size: 1rem;
+    }
+
+    .ingrediente{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.95rem 1rem;
+        border-radius: 0.95rem;
+        background: rgba(255,255,255,0.03);
+        border: 1px solid rgba(255,255,255,0.08);
+        margin-bottom: 0.85rem;
+    }
+
+    .ingrediente:last-child{
+        margin-bottom: 0;
+    }
+
+    .checkbox{
+        width: 1.2rem;
+        height: 1.2rem;
+        min-width: 1.2rem;
+        min-height: 1.2rem;
+        border-radius: 0.4rem;
+        border: 2px solid #6b554f;
+        display: grid;
+        place-items: center;
+        color: transparent;
+        font-size: 0.85rem;
+        background: rgba(255,255,255,0.04);
+    }
+
+    .item.completed .checkbox{
+        border-color: #5fdc94;
+        background: rgba(95,220,148,0.14);
+        color: #5fdc94;
+    }
+
+    .item-text{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: #EAE2DB;
+        font-size: 0.98rem;
+    }
+
+    .item-text strong{
+        color: #FFFFFF;
+        font-weight: 700;
+    }
+
